@@ -1,0 +1,1 @@
+[{"Id":"63f46bfc-0541-482d-98cd-3b9a38d1c3d2","Name":"Santeri","Score":1100,"Level":0,"IsBanned":false,"CreationTime":"2020-09-08T14:54:50.55892+03:00"},{"Id":"c9b72c6b-d826-4e9f-bc2e-5f48fab0069f","Name":"Joonas","Score":0,"Level":0,"IsBanned":false,"CreationTime":"2020-09-08T15:12:25.3716816+03:00"}]
