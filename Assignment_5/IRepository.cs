@@ -12,6 +12,10 @@ namespace Assignment_5
         Task<Player[]> GetAllPlayers();
         Task<Player> UpdatePlayer(Player player);
         Task<Player> DeletePlayer(Guid playerId);
+        Task<Player[]> GetPlayersWithScoreMoreThan(int x);
+        Task<Player> GetPlayerWithName(string name);
+        Task<Player[]> GetPlayersWithTag(Tags tag);
+        Task<Player[]> GetTop10Players();
 
         Task<Item> CreateItem(Guid playerId, Item item);
         Task<Item> GetItem(Guid playerId, Guid itemId);

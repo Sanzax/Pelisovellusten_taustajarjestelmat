@@ -166,5 +166,25 @@ namespace Assignment_5
         {
             throw new NotImplementedException();
         }
+
+        public Task<Player[]> GetPlayersWithScoreMoreThan(int x)
+        {
+            return null;
+        }
+
+        public Task<Player> GetPlayerWithName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Player[]> GetPlayersWithTag(Tags tag)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Player[]> GetTop10Players()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

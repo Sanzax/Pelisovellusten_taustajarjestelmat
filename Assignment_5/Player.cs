@@ -5,6 +5,11 @@ using System.Threading.Tasks;
 
 namespace Assignment_5
 {
+    public enum Tags
+    {
+        x, y, z
+    }
+
     public class Player
     {
         public Guid Id { get; set; }
@@ -14,5 +19,12 @@ namespace Assignment_5
         public bool IsBanned { get; set; }
         public DateTime CreationTime { get; set; }
         public List<Item> Items { get; set; }
+        public List<Tags> Tags { get; set; }
+
+        public Player()
+        {
+            Items = new List<Item>();
+            Tags = new List<Tags>();
+        }
     }
 }

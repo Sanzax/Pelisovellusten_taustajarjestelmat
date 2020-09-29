@@ -67,5 +67,33 @@ namespace Assignment_5
         {
             return await _repository.DeletePlayer(id);
         }
+
+        [HttpGet]
+        [Route("GetPlayersWithScoreMoreThan")]
+        public async Task<Player[]> GetPlayersWithScoreMoreThan(int minScore)
+        {
+            return await _repository.GetPlayersWithScoreMoreThan(minScore);
+        }
+
+        [HttpGet]
+        [Route("GetPlayerWithName")]
+        public async Task<Player> GetPlayerWithName(string name)
+        {
+            return await _repository.GetPlayerWithName(name);
+        }
+
+        [HttpGet]
+        [Route("GetPlayersWithTag")]
+        public async Task<Player[]> GetPlayersWithTag(Tags tag)
+        {
+            return await _repository.GetPlayersWithTag(tag);
+        }
+
+        [HttpGet]
+        [Route("GetTop10")]
+        public async Task<Player[]> GetTop10Players()
+        {
+            return await _repository.GetTop10Players();
+        }
     }
 }
